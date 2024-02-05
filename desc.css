@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(235deg, rgba(44, 110, 237, 0.02) 18.15%, rgba(137, 38, 235, 0.20) 40.54%, rgba(38, 98, 216, 0.00) 80.39%), #171327;
+}
+
+@media screen and (min-width: 600px) {
+  .download {
+    flex-direction: column;
+  }
+}
+
+/* hioding answers to faq */
+.answer-to-faq{
+  display: none;
+}
+.qustion {
+  cursor:default;
+}
+.show {
+  display: block;
+}

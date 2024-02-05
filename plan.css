@@ -1,0 +1,71 @@
+/* header */
+.nav {
+  border-bottom: none;
+}
+
+/* main */
+.welcome {
+  border: 2px solid black;
+  padding: 2cm;
+}
+
+h5 {
+  margin-top: 12px;
+}
+
+.icon {
+  width: 7%;
+  margin-top: 15px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: -13px;
+  margin-left: 1cm;
+  margin-bottom: 17px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .welcome {
+    width: 83%;
+   
+  }
+  
+  label {
+    margin-left: 0;
+  }
+  
+  .icon {
+    margin-left: -7.4cm;
+    width: 3%;
+  }
+
+  #icon--2 {
+    margin-left: 1.9cm;
+  }
+
+  .btn {
+    width: 40%;
+    justify-self: center;
+  }
+
+  .plan--btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

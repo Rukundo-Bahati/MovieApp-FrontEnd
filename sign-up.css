@@ -1,0 +1,80 @@
+
+
+/* header */
+.nav {
+  font-size: 26px;
+  margin: 0;
+  background: #000;
+  border-bottom: none;
+}
+.web-form {
+  background: #000;
+}
+
+.own {
+  height: 3.4rem;
+  width: 95%;
+
+}
+
+.form__heading {
+  color: #fff;
+  margin-left: 0.5cm;
+  font-size: 35px;
+}
+.sign-up__color {
+  color: #999;
+}
+
+.check a {
+  float: right;
+}
+
+.sign {
+  color: #fff;
+}
+
+.welcome {
+  padding: 18px;
+}
+
+/* footer */
+/* .footer-links {
+  background: #000;
+} */
+ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  
+.own {
+  width: 70%;
+}
+
+.nav,
+.web-form,
+.footer-links {
+  background: none;
+}
+
+.welcome{
+  background: #000000b5;
+  width: 40%;
+  margin-bottom: 2cm;
+}
+footer {
+  background: #000000cb;
+
+}
+
+/* body */
+body {
+  /* background-image: url(../../images/over.jpg); */
+
+  background-image: linear-gradient(to bottom right, rgb(47, 0, 128), rgb(92, 0, 128));
+}
+}
+footer {
+  height:fit-content;
+}

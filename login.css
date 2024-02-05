@@ -1,0 +1,131 @@
+body {
+
+
+  background-image: linear-gradient(to bottom right, rgb(47, 0, 128), rgb(92, 0, 128));
+}
+
+/*nav-bar*/
+.nav {
+ border-bottom: 1px solid rgb(147, 145, 145);
+ font-size: 12px;
+ height: 6rem;
+}
+#button {
+  width: 20%;
+  background: none;
+  color:#fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#button:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px)  {
+  #button {
+    width: 8%;
+    font-size: 18px;
+  }
+  .nav {
+    font-size: 29px;
+  }
+}
+/* form */
+
+.web-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;;
+  padding: 1cm;
+  
+}
+
+.size {
+  width: 90%;
+  height:4rem ;
+  font-size: larger;
+}
+h4 {
+  font-size: 20px;
+}
+h1,
+h4 {
+  text-align: left;
+}
+
+
+button {
+  margin: 20px;
+}
+.password {
+  border: 1px solid #575757;
+  margin: 20px;
+  padding: 0 20px;
+  color: #000;
+}
+.password:focus {
+  border: 1px solid green;
+  outline: none;
+}
+
+label {
+  text-align: left;
+}
+
+form a {
+  text-align: left;
+  color: rgb(0, 102, 205);
+}
+
+footer {
+  background: #000;
+}
+
+.welcome__heading {
+  line-height: 1.2;
+}
+
+h5,
+h1 {
+  margin: 0;
+}
+@media screen and (min-width: 600px) {
+  
+
+  .welcome {
+    width: fit-content;
+    height: fit-content;
+  }
+  form {
+    width: 90%;
+  }
+}
+
+footer {
+  background: #000;
+}
+
+/* footer */
+.footer-links {
+  background: var(--color-background);
+  border-top: 2px solid rgb(185, 184, 184);
+  display: flex;
+}
+
+@media screen and (min-width: 600px) {
+   .footer-links {
+    justify-content: center;
+    align-items: center;
+   }
+  }
